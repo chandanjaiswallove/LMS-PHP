@@ -4,8 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Studyhub - LMS and University HTML5 Template</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ asset('assets2/images/fav.png') }}">
     <!-- animate css -->
     <link rel="stylesheet" href="{{ asset('assets2/css/plugins/animate.min.css') }}">
     <!-- fontawesome 6.4.2 -->
@@ -79,8 +77,8 @@
   </div>
 </div>
 
-                        <div class="rts-slider-bg" 
-     data-background="{{ asset('assets2/images/banner/01.jpg') }}" 
+                        <div class="rts-slider-bg"
+     data-background="{{ asset('assets2/images/banner/01.jpg') }}"
      style="background-image: url('{{ asset('assets2/images/banner/02-01.jpg') }}')">
 </div>
 
@@ -98,7 +96,7 @@
                                                 Remember to tailor the section names to fit the specific needs and structure of your university website.
                                             </p>
                                             <div class="rts-slider-btn">
-                                                <a href="academic.html" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
+                                                <a href="{{ route('home') }}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
                                                 <a href="https://www.youtube.com/watch?v=7ahgosTZJHg" class="video-play rts-video-btn popup-video"><span><img src="{{ asset('assets2/images/icon/video-btn.svg') }}" alt="video-btn"></span> Watch Video</a>
                                             </div>
                                         </div>
@@ -143,7 +141,7 @@
   </div>
 </div>
 
-                        <div class="rts-slider-bg" data-background="{{ asset('assets2/images/banner/0.3jpg') }}" style="background-image: url('{{ asset('assets2/images/banner/02-01.jpg')}}') "></div>
+                        <div class="rts-slider-bg" data-background="{{ asset('assets2/images/banner/0.3jpg') }}" style="background-image: url('{{ asset('assets2/images/banner/0011.jpg')}}') "></div>
                         <div class="container">
                             <div class="row justify-content-lg-center justify-content-xl-start">
                                 <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
@@ -158,7 +156,7 @@
                                                 Remember to tailor the section names to fit the specific needs and structure of your university website.
                                             </p>
                                             <div class="rts-slider-btn">
-                                                <a href="academic.html" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
+                                                <a href="{{route('home')}}" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
                                                 <a href="https://www.youtube.com/watch?v=7ahgosTZJHg" class="video-play rts-video-btn popup-video"><span><img src="{{ asset('assets2/images/icon/video-btn.svg') }}" alt="video-btn"></span> Watch Video</a>
                                             </div>
                                         </div>
@@ -202,7 +200,7 @@
   </div>
 </div>
 
-                        <div class="rts-slider-bg" data-background="{{ asset('assets2/images/banner/02-01.jpg') }}" style="background-image: url('{{ asset('assets2/images/banner/02-02.jpg')}}') "></div>
+                        <div class="rts-slider-bg" data-background="{{ asset('assets2/images/banner/02-01.jpg') }}" style="background-image: url('{{ asset('assets2/images/banner/0022.jpg')}}') "></div>
                         <div class="container">
                             <div class="row justify-content-lg-center justify-content-xl-start">
                                 <div class="col-lg-6 col-xl-6 col-md-8 col-sm-9">
@@ -346,7 +344,7 @@
                     </div>
                 </div>
                 <!-- single slider -->
-               
+
             <!-- slider arrow -->
            <!--   <div class="rts-slider-arrow">
                 <div class="rt-slider-btn rt-next">
@@ -361,9 +359,9 @@
     </div>
     <!-- hero slider  end -->
 
-    
-                 
-                          
+
+
+
 
 
 

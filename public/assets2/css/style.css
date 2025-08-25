@@ -15,10 +15,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 :root {
-  --rt-theme: #09A24F;
+  --rt-theme: #553CDF;
   --rt-primary: #36348E;
   --rt-primary-1: #553CDF;
-  --rt-secondary: #110C2D;
+  --rt-secondary: #ffffff;
   --rt-footer: #181818;
   --rt-body: #737477;
   --rt-heading-1: #30373E;
@@ -15609,6 +15609,7 @@ nav ul li a {
   background: var(--rt-theme);
   color: var(--rt-white);
   overflow: hidden;
+  border-radius: 3px;
   z-index: 1;
 }
 .rts-theme-btn::before {
@@ -15618,6 +15619,7 @@ nav ul li a {
   content: "";
   left: 0;
   top: 0;
+  
   left: -70%;
   background: var(--rt-secondary);
   z-index: -1;
@@ -15625,7 +15627,11 @@ nav ul li a {
   opacity: 0;
 }
 .rts-theme-btn:hover {
-  color: var(--rt-white);
+  color:#553CDF;
+  background-color: white;
+  border:2px solid #553CDF;
+  overflow: hidden;
+  border-radius: 3px;
 }
 .rts-theme-btn:hover::before {
   opacity: 1;
