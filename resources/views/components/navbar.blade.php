@@ -339,12 +339,6 @@
 
 
 
-
- 
-   
-
-
-
     <!-- cart area start -->
     <div class="cart-bar">
         <div class="cart-header">

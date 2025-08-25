@@ -333,7 +333,7 @@
                                                 Remember to tailor the section names to fit the specific needs and structure of your university website.
                                             </p>
                                             <div class="rts-slider-btn">
-                                                <a href="academic.html" class="rts-theme-btn btn-arrow">View Our Program <span><i class="fa-thin fa-arrow-right"></i></span></a>
+                                                <a href="index-three.html#" class="rts-btn btn-arrow">View Our Program <i class="fa-light fa-arrow-right"></i></a>
                                                 <a href="https://www.youtube.com/watch?v=7ahgosTZJHg" class="video-play rts-video-btn popup-video"><span><img src="{{ asset('assets2/images/icon/video-btn.svg') }}" alt="video-btn"></span> Watch Video</a>
                                             </div>
                                         </div>

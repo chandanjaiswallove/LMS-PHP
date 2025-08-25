@@ -1,11 +1,11 @@
- <!-- up coming events area start -->
+    <!-- up coming events area start -->
     <div class="up-coming-events rts-section-gap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="title-area-center-style">
                         <div class="pre-title">
-                            <img src="assets/images/banner/bulb.png" alt="icon">
+                            <img src="{{ asset('assets/images/banner/bulb.png')}}" alt="icon">
                             <span>Our Event</span>
                         </div>
                         <h2 class="title">Upcoming Events</h2>
@@ -21,7 +21,7 @@
                         <div class="single-upcoming-events">
                             <div class="img-information">
                                 <a href="event-details.html" class="thumbnail">
-                                    <img src="assets/images/events/01.jpg" alt="events">
+                                    <img src="{{ asset('assets/images/events/01.jpg')}}" alt="events">
                                 </a>
                                 <div class="information">
                                     <div class="date-details">
@@ -50,7 +50,7 @@
                         <div class="single-upcoming-events">
                             <div class="img-information">
                                 <a href="event-details.html" class="thumbnail">
-                                    <img src="assets/images/events/02.jpg" alt="events">
+                                    <img src="{{ asset('assets/images/events/02.jpg')}}" alt="events">
                                 </a>
                                 <div class="information">
                                     <div class="date-details">
@@ -79,7 +79,7 @@
                         <div class="single-upcoming-events">
                             <div class="img-information">
                                 <a href="event-details.html" class="thumbnail">
-                                    <img src="assets/images/events/03.jpg" alt="events">
+                                    <img src="{{ asset('assets/images/events/03.jpg')}}" alt="events">
                                 </a>
                                 <div class="information">
                                     <div class="date-details">

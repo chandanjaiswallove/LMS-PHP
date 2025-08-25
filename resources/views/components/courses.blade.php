@@ -1,37 +1,66 @@
-
-
     <!-- course area start -->
-    <div class="course-area-start rts-section-gap">
+    <div class="course-area-two rts-section-gapBottom">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="title-between-area">
+                    <div class="title-between-area align-items-end">
                         <div class="title-area-left-style">
                             <div class="pre-title">
-                                <img src="assets/images/banner/bulb.png" alt="icon">
+                                <img src="{{ asset('assets/images/banner/bulb.png')}}" alt="icon">
                                 <span>Courses</span>
                             </div>
-                            <h2 class="title">Explore Featured Courses</h2>
-                            <p class="post-title">You'll find something to spark your curiosity and enhance</p>
+                            <h2 class="title mb--5">Explore Featured Courses</h2>
+                            <p class="disc">
+                                You'll find something to spark your curiosity and enhance
+                            </p>
                         </div>
-                        <div class="button-group filters-button-group">
-                            <button class="button is-checked" data-filter="*">All Catagories</button>
-                            <button class="button" data-filter=".creative">Business</button>
-                            <button class="button" data-filter=".design">Marketing</button>
-                            <button class="button" data-filter=".photo">Music</button>
-                            <button class="button" data-filter=".style">Design</button>
-                        </div>
+                        <a href="index-three.html#" class="rts-btn btn-primary with-arrow">View All Course <i class="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
-            <div class="ms-portfolio-filter-area main-isotop">
-                <div class="portfolio_wrap">
-                    <div class="filter row g-5 mt--20 portfolio-feed personal">
-                        <div class="flash grid-item-p element-item transition creative col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
-                            <!-- rts single course -->
+            <div class="row g-5 mt--20">
+                <div class="swiper mySwiper-category-1 swiper-float-right-course swiper-data" data-swiper='{
+                    "spaceBetween":30,
+                    "slidesPerView":4,
+                    "loop": true,
+                    "autoplay":{
+                        "delay":"2000"
+                    },
+                    "navigation":{
+                        "nextEl":".swiper-button-next",
+                        "prevEl":".swiper-button-prev"
+                    },
+                    "pagination":{
+                        "el": ".swiper-pagination",
+                        "clickable": "true"
+                    },
+                    "breakpoints":{
+                    "320":{
+                        "slidesPerView":1,
+                        "spaceBetween":30},
+                    "420":{
+                        "slidesPerView":1,
+                        "spaceBetween":30},
+                    "500":{
+                        "slidesPerView":2,
+                        "spaceBetween":30},
+                    "740":{
+                        "slidesPerView":2,
+                        "spaceBetween":30},
+                    "940":{
+                        "slidesPerView":3,
+                        "spaceBetween":30},
+                    "1240":{
+                        "slidesPerView":4,
+                        "spaceBetween":30}
+                    }
+                }'>
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <!-- single course style two -->
                             <div class="rts-single-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/01.jpg" alt="course">
+                                    <img src="{{ asset('assets/images/course/01.jpg')}}" alt="course">
                                 </a>
                                 <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
                                     <i class="fa-sharp fa-light fa-bookmark"></i>
@@ -79,14 +108,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- rts single course end -->
+                            <!-- single course style two end -->
                         </div>
-
-                        <div class="flash grid-item-p element-item transition design col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
+                        <div class="swiper-slide">
                             <!-- rts single course -->
                             <div class="rts-single-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/02.jpg" alt="course">
+                                    <img src="{{ asset('assets/images/course/02.jpg')}}" alt="course">
                                 </a>
                                 <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
                                     <i class="fa-sharp fa-light fa-bookmark"></i>
@@ -136,12 +164,11 @@
                             </div>
                             <!-- rts single course end -->
                         </div>
-
-                        <div class="flash grid-item-p element-item transition photo col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
+                        <div class="swiper-slide">
                             <!-- rts single course -->
                             <div class="rts-single-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/03.jpg" alt="course">
+                                    <img src="{{ asset('assets/images/course/03.jpg')}}" alt="course">
                                 </a>
                                 <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
                                     <i class="fa-sharp fa-light fa-bookmark"></i>
@@ -191,12 +218,11 @@
                             </div>
                             <!-- rts single course end -->
                         </div>
-
-                        <div class="flash grid-item-p element-item transition style col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
+                        <div class="swiper-slide">
                             <!-- rts single course -->
                             <div class="rts-single-course">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/04.jpg" alt="course">
+                                    <img src="{{ asset('assets/images/course/04.jpg')}}" alt="course">
                                 </a>
                                 <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
                                     <i class="fa-sharp fa-light fa-bookmark"></i>
@@ -249,227 +275,10 @@
                             </div>
                             <!-- rts single course end -->
                         </div>
-
-                        <div class="flash grid-item-p element-item transition creative col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
-                            <!-- rts single course -->
-                            <div class="rts-single-course">
-                                <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/05.jpg" alt="course">
-                                </a>
-                                <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
-                                    <i class="fa-sharp fa-light fa-bookmark"></i>
-                                </div>
-                                <div class="tags-area-wrapper">
-                                    <div class="single-tag">
-                                        <span>Music</span>
-                                    </div>
-                                    <div class="single-tag">
-                                        <span>Art</span>
-                                    </div>
-                                </div>
-                                <div class="lesson-studente">
-                                    <div class="lesson">
-                                        <i class="fa-light fa-calendar-lines-pen"></i>
-                                        <span>25 Lessons</span>
-                                    </div>
-                                    <div class="lesson">
-                                        <i class="fa-light fa-user-group"></i>
-                                        <span>54 Students</span>
-                                    </div>
-                                </div>
-                                <a href="single-course.html">
-                                    <h5 class="title">Complete Guitar Lessons System
-                                        Beginner to Advanced</h5>
-                                </a>
-                                <p class="teacher">Erich Andreas</p>
-                                <div class="rating-and-price">
-                                    <div class="rating-area">
-                                        <span>4.5</span>
-                                        <div class="stars">
-                                            <ul>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-regular fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-area">
-                                        <div class="not price">
-                                            $79.99
-                                        </div>
-                                        <div class="price">
-                                            $79.99
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- rts single course end -->
-                        </div>
-
-                        <div class="flash grid-item-p element-item transition design col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
-                            <!-- rts single course -->
-                            <div class="rts-single-course">
-                                <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/06.jpg" alt="course">
-                                </a>
-                                <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
-                                    <i class="fa-sharp fa-light fa-bookmark"></i>
-                                </div>
-                                <div class="tags-area-wrapper">
-                                    <div class="single-tag">
-                                        <span>Web Development</span>
-                                    </div>
-                                </div>
-                                <div class="lesson-studente">
-                                    <div class="lesson">
-                                        <i class="fa-light fa-calendar-lines-pen"></i>
-                                        <span>25 Lessons</span>
-                                    </div>
-                                    <div class="lesson">
-                                        <i class="fa-light fa-user-group"></i>
-                                        <span>54 Students</span>
-                                    </div>
-                                </div>
-                                <a href="single-course.html">
-                                    <h5 class="title">How to Market Yourself as Coach or Consultant Market</h5>
-                                </a>
-                                <p class="teacher">Dr. Angela Yu</p>
-                                <div class="rating-and-price">
-                                    <div class="rating-area">
-                                        <span>4.5</span>
-                                        <div class="stars">
-                                            <ul>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-regular fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-area">
-                                        <div class="price">
-                                            $79.99
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- rts single course end -->
-                        </div>
-
-                        <div class="flash grid-item-p element-item transition photo col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
-                            <!-- rts single course -->
-                            <div class="rts-single-course">
-                                <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/07.jpg" alt="course">
-                                </a>
-                                <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
-                                    <i class="fa-sharp fa-light fa-bookmark"></i>
-                                </div>
-                                <div class="tags-area-wrapper">
-                                    <div class="single-tag">
-                                        <span>Business</span>
-                                    </div>
-                                </div>
-                                <div class="lesson-studente">
-                                    <div class="lesson">
-                                        <i class="fa-light fa-calendar-lines-pen"></i>
-                                        <span>25 Lessons</span>
-                                    </div>
-                                    <div class="lesson">
-                                        <i class="fa-light fa-user-group"></i>
-                                        <span>54 Students</span>
-                                    </div>
-                                </div>
-                                <a href="single-course.html">
-                                    <h5 class="title">How to Run truly Productive in
-                                        Meetings – and add value</h5>
-                                </a>
-                                <p class="teacher">Dr. Angela Yu</p>
-                                <div class="rating-and-price">
-                                    <div class="rating-area">
-                                        <span>4.5</span>
-                                        <div class="stars">
-                                            <ul>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-regular fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-area">
-                                        <div class="not price">
-                                            $79.99
-                                        </div>
-                                        <div class="price">
-                                            $39.99
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- rts single course end -->
-                        </div>
-
-                        <div class="flash grid-item-p element-item transition style col-xl-3 col-lg-4 col-md-6 col-sm-6" data-category="transition">
-                            <!-- rts single course -->
-                            <div class="rts-single-course">
-                                <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/08.jpg" alt="course">
-                                </a>
-                                <div class="save-icon" data-bs-toggle="modal" data-bs-target="#exampleModal-login">
-                                    <i class="fa-sharp fa-light fa-bookmark"></i>
-                                </div>
-                                <div class="tags-area-wrapper">
-                                    <div class="single-tag">
-                                        <span>Dance</span>
-                                    </div>
-                                    <div class="single-tag">
-                                        <span>Meditation</span>
-                                    </div>
-                                </div>
-                                <div class="lesson-studente">
-                                    <div class="lesson">
-                                        <i class="fa-light fa-calendar-lines-pen"></i>
-                                        <span>25 Lessons</span>
-                                    </div>
-                                    <div class="lesson">
-                                        <i class="fa-light fa-user-group"></i>
-                                        <span>54 Students</span>
-                                    </div>
-                                </div>
-                                <a href="single-course.html">
-                                    <h5 class="title">Pole Dancing Video Course with
-                                        Noelle Wood</h5>
-                                </a>
-                                <p class="teacher">Dr. Angela Yu</p>
-                                <div class="rating-and-price">
-                                    <div class="rating-area">
-                                        <span>4.5</span>
-                                        <div class="stars">
-                                            <ul>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
-                                                <li><i class="fa-sharp fa-regular fa-star"></i></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="price-area">
-                                        <div class="price">
-                                            $59.99
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- rts single course end -->
-                        </div>
-
                     </div>
+                    <div class="swiper-button-next"><i class="fa-solid fa-chevron-right"></i></div>
+                    <div class="swiper-button-prev"><i class="fa-solid fa-chevron-left"></i></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </div>
