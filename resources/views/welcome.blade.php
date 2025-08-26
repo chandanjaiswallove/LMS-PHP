@@ -28,39 +28,48 @@
     @include('components.navbar')
 
     {{-- Hero section include --}}
-    {{-- @include('components.hero') --}}
+    @include('components.hero') 
 
      {{-- HeroTwo section include --}}
 {{-- -- @include('components.heroTwo') --}}
 
     {{-- HeroThree section include --}}
-    @include('components.heroThree')
+   {{--  @include('components.heroThree') --}}
 
     {{-- studenttag section include --}}
     @include('components.studenttag')
 
      {{-- brandCourse section include --}}
-    @include('components.gallerys')
+    @include('components.brandCourse')
 
      {{-- topcategory section include --}}
     @include('components.topcategory')
 
+     {{-- courses section include --}}
+   @include('components.courses', ['showGapSection' => true])
+
+
       {{-- courseIntro section include --}}
     @include('components.courseIntro')
+
+    {{-- events section include --}}
+     @include('components.events')
 
            {{-- Instructors section include --}}
     @include('components.instructors')
 
-         {{-- courses section include --}}
-    @include('components.courses')
+
 
      {{-- stfeedback section include --}}
     @include('components.stfeedback')
 
+         {{-- blogs section include --}}
+    @include('components.blogs')
+
     {{-- Home page view file with singleheading file -with--gapsection--}}
     @include('components.footer', [
         'showSingleHeading' => true,
-        'showGapSection' => true
+        'showGapSection' => false
     ])
 
 

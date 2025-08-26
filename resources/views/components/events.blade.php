@@ -1,5 +1,5 @@
     <!-- up coming events area start -->
-    <div class="up-coming-events rts-section-gap">
+    <div class="up-coming-events rts-section-gap " style="background:#F9F8FF;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -43,7 +43,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <a href="event-details.html" class="rts-btn btn-primary with-arrow">Get Ticket <i class="fa-light fa-arrow-right"></i></a>
+                            <a href="event-details.html" class="rts-btn btn-primary with-arrow">Get Details <i class="fa-light fa-arrow-right"></i></a>
                         </div>
                         <!-- single -->
                         <!-- single -->
@@ -72,7 +72,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <a href="event-details.html" class="rts-btn btn-primary with-arrow">Get Ticket <i class="fa-light fa-arrow-right"></i></a>
+                            <a href="event-details.html" class="rts-btn btn-primary with-arrow">Get Details <i class="fa-light fa-arrow-right"></i></a>
                         </div>
                         <!-- single -->
                         <!-- single -->
@@ -101,7 +101,7 @@
                                     </a>
                                 </div>
                             </div>
-                            <a href="event-details.html" class="rts-btn btn-primary with-arrow">Get Ticket <i class="fa-light fa-arrow-right"></i></a>
+                            <a href="event-details.html" class="rts-btn btn-primary with-arrow">Get Details <i class="fa-light fa-arrow-right"></i></a>
                         </div>
                         <!-- single -->
                     </div>

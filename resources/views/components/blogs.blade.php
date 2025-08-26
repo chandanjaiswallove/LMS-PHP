@@ -5,10 +5,10 @@
                 <div class="col-lg-12">
                     <div class="title-area-center-style">
                         <div class="pre-title">
-                            <img src="{{ asset('assets/images/banner/bulb.png')}}" alt="icon">
-                            <span>Blogs & Article</span>
+                            <img src="{{asset('assets/images/banner/bulb.png')}}" alt="icon">
+                            <span>News & Article</span>
                         </div>
-                        <h2 class="title">Read Our Latest Blogs</h2>
+                        <h2 class="title">Read Our Latest News</h2>
                         <p class="post-title"> Our mission is to provide you with valuable insights</p>
                     </div>
                 </div>
@@ -17,7 +17,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog-style-one">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/01.jpg')}}" alt="blog">
+                            <img src="{{asset('assets/images/blog/01.jpg')}}" alt="blog">
                             <div class="tags-area">
                                 <span>Marketing</span>
                             </div>
@@ -43,7 +43,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog-style-one">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/02.jpg')}}" alt="blog">
+                            <img src="{{asset('assets/images/blog/02.jpg')}}" alt="blog">
                             <div class="tags-area">
                                 <span>Business</span>
                             </div>
@@ -69,7 +69,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="single-blog-style-one">
                         <a href="blog-details.html" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/01.jpg')}}" alt="blog">
+                            <img src="{{asset('assets/images/blog/01.jpg')}}" alt="blog">
                             <div class="tags-area">
                                 <span>Accounting</span>
                             </div>

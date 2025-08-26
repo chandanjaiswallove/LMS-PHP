@@ -4,7 +4,7 @@
  @if (!empty($showGapSection) && $showGapSection)
      @include('components.gapsection')
     @endif
-
+    
  {{-- rgapsection-adding here--}}
 
     <!-- footer call to action area start -->

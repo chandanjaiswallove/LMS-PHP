@@ -1,3 +1,11 @@
+     {{-- rgapsection-adding here --}}
+
+ @if (!empty($showGapSection) && $showGapSection)
+     @include('components.gapsection')
+    @endif
+    
+ {{-- rgapsection-adding here--}}
+    
     <!-- course area start -->
     <div class="course-area-two rts-section-gapBottom">
         <div class="container">
