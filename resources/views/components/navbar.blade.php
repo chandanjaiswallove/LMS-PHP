@@ -549,10 +549,11 @@
         </div>
     </div>
 
+ 
     <!-- offcanvase search -->
     <div class="search-input-area">
         <div class="container">
-            <div class="search-input-inner">
+            <div class="search-input-inner ">
                 <div class="input-div">
                     <input class="search-input autocomplete" type="text" placeholder="Search by keyword or #">
                     <button><i class="far fa-search"></i></button>

@@ -49,7 +49,7 @@
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
                         <div class="rts-slider-overlay-element">
-                            <img src="{{ asset('assets2/images/banner/shape/02.svg') }}" alt="">
+                            <img src="{{ asset('assets2/images/banner/shape/002.svg') }}" alt="">
                         </div>
                       <div class="rt-rounded-shape">
   <svg class="rt-svg" viewBox="0 0 120 120" width="120" height="120">
@@ -113,7 +113,7 @@
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
                         <div class="rts-slider-overlay-element">
-                            <img src="{{ asset('assets2/images/banner/shape/02.svg') }}" alt="">
+                            <img src="{{ asset('assets2/images/banner/shape/002.svg') }}" alt="">
                         </div>
                       <div class="rt-rounded-shape">
   <svg class="rt-svg" viewBox="0 0 120 120" width="120" height="120">
@@ -172,7 +172,7 @@
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
                         <div class="rts-slider-overlay-element">
-                            <img src="{{ asset('assets2/images/banner/shape/02.svg') }}" alt="">
+                            <img src="{{ asset('assets2/images/banner/shape/002.svg') }}" alt="">
                         </div>
                       <div class="rt-rounded-shape">
   <svg class="rt-svg" viewBox="0 0 120 120" width="120" height="120">
@@ -231,7 +231,7 @@
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
                         <div class="rts-slider-overlay-element">
-                            <img src="{{ asset('assets2/images/banner/shape/02.svg') }}" alt="">
+                            <img src="{{ asset('assets2/images/banner/shape/002.svg') }}" alt="">
                         </div>
                       <div class="rt-rounded-shape">
   <svg class="rt-svg" viewBox="0 0 120 120" width="120" height="120">
@@ -290,7 +290,7 @@
                 <div class="swiper-slide">
                     <div class="rts-slider-height rts-slider-overlay rt-relative ">
                         <div class="rts-slider-overlay-element">
-                            <img src="{{ asset('assets2/images/banner/shape/02.svg') }}" alt="">
+                            <img src="{{ asset('assets2/images/banner/shape/002.svg') }}" alt="">
                         </div>
                       <div class="rt-rounded-shape">
   <svg class="rt-svg" viewBox="0 0 120 120" width="120" height="120">
