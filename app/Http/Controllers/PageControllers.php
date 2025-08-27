@@ -6,8 +6,19 @@ use Illuminate\Http\Request;
 
 class PageControllers extends Controller
 {
-    public function welcome()
+    public function home()
     {
         return view('welcome');
     }
+
+    public function contact() 
+    {
+        return view('pages.contactus');
+    }
+
+    public function about()
+    {
+        return view('pages.aboutus');
+    }
+
 }

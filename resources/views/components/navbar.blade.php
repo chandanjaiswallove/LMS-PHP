@@ -111,7 +111,7 @@
                 <div class="col-lg-12">
                     <div class="header-one-wrapper">
                         <div class="left-side-header">
-                            <a href="{{ route('home') }}" class="logo-area">
+                            <a href="#" class="logo-area">
                                 <img src="{{ asset('assets/images/logo/logo-1.svg')}}" alt="logo">
                             </a>
 
@@ -163,39 +163,21 @@
 
                                         <li class="has-dropdown" style="position: static;">
                                             <a class="nav-link" href="#">Pages</a>
-
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-
-                                                        <li><a href="{{ route(name: 'home') }}">Instructors</a></li>
-
-                                                        <li>
-                                                            <a href="#">Blogs </a>
-
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Courses</a>
-
-                                                        </li>
-                                                        <li><a href="#">Contact us</a></li>
-                                                        <li>
-                                                            <a href="#">Toppers</a>
-
-                                                        </li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Instructors</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Blogs </a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Courses</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Contact us</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Toppers</a></li>
                                                     </ul>
                                                     <ul class="submenu">
-                                                        <li>
-                                                            <a href="#">Gallery</a>
-
-                                                        </li>
-                                                        <li><a href="#">Events</a></li>
-                                                        <li>
-                                                            <a href="#">About us</a>
-
-                                                        </li>
-                                                        <li><a href="#">Notice</a></li>
-                                                        <li><a href="#">Result</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Gallery</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Events</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">About us</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Notice</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Result</a></li>
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
                                                         <img class=" shape one" src="assets/images/nav/02.png"
@@ -219,35 +201,18 @@
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-
-                                                        <li><a href="{{ route(name: 'home') }}">About Us</a></li>
-
-                                                        <li>
-                                                            <a href="#">Chemistry </a>
-
-                                                        </li>
-                                                        <li>
-                                                            <a href="#">Test Series</a>
-
-                                                        </li>
-                                                        <li><a href="#">Class 7</a></li>
-                                                        <li>
-                                                            <a href="#">Class 9</a>
-
-                                                        </li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Crash Course</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Chemistry</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Test Series</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 7</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>
                                                     </ul>
                                                     <ul class="submenu">
-                                                        <li>
-                                                            <a href="#">Spoken Class</a>
-
-                                                        </li>
-                                                        <li><a href="#">English Grammer</a></li>
-                                                        <li>
-                                                            <a href="#">All Courses</a>
-
-                                                        </li>
-                                                        <li><a href="#">Class 8</a></li>
-                                                        <li><a href="#">Class 12th</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Spoken Classes</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">English Grammer</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 12th </a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">All Courses</a></li>                                                        
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
                                                         <img class=" shape one" src="assets/images/nav/02.png"
@@ -265,77 +230,8 @@
                                         </li>
 
 
-                                        <li class="has-dropdown">
-                                            <a class="nav-link" href="#">About</a>
-                                            <ul class="submenu">
-                                                <li class="sub-dropdown">
-                                                    <a class="submenu-link" href="javascript:void(0);">Instructor
-                                                        Dashboard</a>
-                                                    <ul class="submenu third-lvl base">
-                                                        <li><a class="mobile-menu-link"
-                                                                href="dashboard.html">Dashboard</a></li>
-                                                        <li><a class="mobile-menu-link" href="my-profile.html">My
-                                                                Profile</a></li>
-                                                        <li><a class="mobile-menu-link" href="enroll-course.html">Enroll
-                                                                Course</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="wishlist.html">Wishlist</a></li>
-                                                        <li><a class="mobile-menu-link" href="reviews.html">Reviews</a>
-                                                        </li>
-                                                        <li><a class="mobile-menu-link" href="quick-attempts.html">Quick
-                                                                Attempts</a></li>
-                                                        <li><a class="mobile-menu-link" href="order-history.html">Order
-                                                                History</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="question-answer.html">Question Answer</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="calender.html">Calender</a></li>
-                                                        <li><a class="mobile-menu-link" href="my-course.html">My
-                                                                Course</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="announcement.html">Announcement</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="assignments.html">Assignments</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="certificate.html">Certificate</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="sub-dropdown">
-                                                    <a class="submenu-link" href="javascript:void(0);">Students
-                                                        Dashboard</a>
-                                                    <ul class="submenu third-lvl base">
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-dashboard.html">Dashboard</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-profile.html">My
-                                                                Profile</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-enroll-course.html">Enroll Course</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-wishlist.html">Wishlist</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-reviews.html">Reviews</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-quick-attempts.html">Quick Attempts</a>
-                                                        </li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-order-history.html">Order History</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-question-answer.html">Question Answer</a>
-                                                        </li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-calender.html">Calender</a></li>
-                                                        <li><a class="mobile-menu-link"
-                                                                href="student-settings.html">Student Settings</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="">
-                                            <a class="nav-link" href="#">Contact</a>
-
-                                        </li>
-
-
+                                        <li class=""><a class="nav-link" href="{{ route('about') }}">About us</a></li>
+                                        <li class=""><a class="nav-link " href="{{ route('contact') }}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -509,8 +405,13 @@
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
+            <div class=" text-center">
+                <a href="index.html" class="logo-area">
+                <img src="{{ asset('assets/images/logo/logo-1.svg') }}" alt="logo">
+                </a>
+             </div>
         <!-- inner menu area desktop start -->
-        <div class="inner-main-wrapper-desk">
+        <!-- <div class="inner-main-wrapper-desk">
             <div class="thumbnail">
                 <img src="{{ asset('assets/images/banner/04.jpg')}}" alt="elevate">
             </div>
@@ -525,154 +426,95 @@
                     <a href="contact.html" class="rts-btn btn-primary">Let's talk</a>
                 </div>
             </div>
-        </div>
+        </div> -->
+
+
         <!-- mobile menu area start -->
         <div class="mobile-menu-main">
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="">
-                        <a class="nav-link" href="{{ route('home') }}">Home</a>
-                      
+                        <a href="#" class="main">Home</a>
                     </li>
+
                     <li class="has-droupdown">
                         <a href="#" class="main">Pages</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="about.html">About Us</a></li>
-                            <li><a class="mobile-menu-link" href="about-two.html">About Us Two</a></li>
-                            <li><a class="mobile-menu-link" href="instructor-profile.html">Profile</a></li>
-                            <li><a class="mobile-menu-link" href="contact.html">Contact</a></li>
-                            <li class="has-droupdown third-lvl">
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Instructors</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Blogs </a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Courses</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Contact us</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Toppers</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Gallery</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Events</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">About us</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Notice</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Result</a></li>
+                            <!-- <li class="has-droupdown third-lvl">
                                 <a class="main" href="#">Zoom</a>
                                 <ul class="submenu-third-lvl mm-collapse">
                                     <li><a href="zoom-meeting.html"></a>Zoom Meeting</li>
                                     <li><a href="zoom-details.html"></a>Zoom Details</li>
                                 </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Event</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="event.html"></a>Event</li>
-                                    <li><a href="https://html.themewant.com/studyhub/event-two.html"></a>Event Two</li>
-                                    <li><a href="event-details.html"></a>Event Details</li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Shop</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="shop.html"></a>Shop</li>
-                                    <li><a href="product-details.html"></a>Product Details</li>
-                                    <li><a href="checkout.html"></a>Checkout</li>
-                                    <li><a href="cart.html"></a>Cart</li>
-                                </ul>
-                            </li>
+                            </li> -->
+
                         </ul>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Course</a>
+                        <a href="#" class="main">Courses</a>
                         <ul class="submenu mm-collapse">
-                            <li><a href="#" class="tag">Courses</a></li>
-                            <li><a class="mobile-menu-link" href="course-one.html">Courses</a></li>
-                            <li><a class="mobile-menu-link" href="course-two.html">Course List</a></li>
-                            <li><a class="mobile-menu-link" href="course-three.html">Course Grid</a></li>
-                            <li><a class="mobile-menu-link" href="course-four.html">Course List Two</a></li>
-                            <li><a class="mobile-menu-link" href="course-five.html">Course Grid Two</a></li>
-                            <li><a class="mobile-menu-link" href="course-six.html">Course Filter</a></li>
-                        </ul>
-                        <ul class="submenu mm-collapse">
-                            <li><a href="#" class="tag">Courses Details</a></li>
-                            <li><a class="mobile-menu-link" href="single-course.html">Courses Details</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-two.html">Courses Details V2</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-three.html">Courses Details V3</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-four.html">Courses Details V4</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-five.html">Courses Details V5</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-free.html">Courses Details Free</a></li>
-                        </ul>
-                        <ul class="submenu mm-collapse">
-                            <li><a href="#" class="tag">Others</a></li>
-                            <li><a class="mobile-menu-link" href="become-instructor.html">Become an Instructor</a></li>
-                            <li><a class="mobile-menu-link" href="instructor-profile.html">Instructor Profile</a></li>
-                            <li><a class="mobile-menu-link" href="instructor.html">Instructor</a></li>
-                            <li><a class="mobile-menu-link" href="pricing.html">Membership Plan</a></li>
-                            <li><a class="mobile-menu-link" href="log-in.html">Log In</a></li>
-                            <li><a class="mobile-menu-link" href="registration.html">Registration</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Spoken Classes</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">English Grammer</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 12th </a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">All Courses</a></li> 
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Crash Course</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Chemistry</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Test Series</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 7</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>                                                        
+                       
                         </ul>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="#" class="main">Dashboard</a>
+                    <li class="">
+                        <a href="{{ route(name: 'home') }}" class="main">About us</a>
                         <ul class="submenu mm-collapse">
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Instructor Dashboard</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="dashboard.html"></a>Dashboard</li>
-                                    <li><a href="my-profile.html"></a>My Profile</li>
-                                    <li><a href="enroll-course.html"></a>Enroll Course</li>
-                                    <li><a href="wishlist.html"></a>Wishlist</li>
-                                    <li><a href="reviews.html"></a>Reviews</li>
-                                    <li><a href="quick-attempts.html"></a>Quick Attempts</li>
-                                    <li><a href="order-history.html"></a>Order History</li>
-                                    <li><a href="question-answer.html"></a>Question Answer</li>
-                                    <li><a href="calender.html"></a>Calender</li>
-                                    <li><a href="my-course.html"></a>My Course</li>
-                                    <li><a href="announcement.html"></a>Announcement</li>
-                                    <li><a href="assignments.html"></a>Assignments</li>
-                                    <li><a href="certificate.html"></a>Certificate</li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Students Dashboard</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="student-dashboard.html"></a>Dashboard</li>
-                                    <li><a href="student-profile.html"></a>My Profile</li>
-                                    <li><a href="student-enroll-course.html"></a>Enroll Course</li>
-                                    <li><a href="student-wishlist.html"></a>Wishlist</li>
-                                    <li><a href="student-reviews.html"></a>Reviews</li>
-                                    <li><a href="student-quick-attempts.html"></a>Quick Attempts</li>
-                                    <li><a href="student-order-history.html"></a>Order History</li>
-                                    <li><a href="student-question-answer.html"></a>Question Answer</li>
-                                    <li><a href="student-calender.html"></a>Calender</li>
-                                    <li><a href="student-settings.html"></a>Students Settings</li>
-                                </ul>
-                            </li>
+
                         </ul>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="#" class="main">Contact</a>
+                    <li class="">
+                        <a href="{{ route(name: 'home') }}" class="main">Contact</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>
-                            <li><a class="mobile-menu-link" href="blog-grid.html">Blog Grid</a></li>
-                            <li><a class="mobile-menu-link" href="blog-list.html">Blog List</a></li>
-                            <li><a class="mobile-menu-link" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                            <li><a class="mobile-menu-link" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                            <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
+                        
                         </ul>
                     </li>
                 </ul>
             </nav>
 
-            <div class="buttons-area">
-                <a href="#" class="rts-btn btn-border">Log In</a>
-                <a href="#" class="rts-btn btn-primary">Sign Up</a>
+            <div class="d-flex justify-content-around">
+                <a href="{{ route(name: 'home') }}" class="rts-btn btn-border">Log In</a>
+                <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary">Sign Up</a>
             </div>
 
-            <div class="rts-social-style-one pl--20 mt--50">
+            <div class="rts-social-style-one  mt--50">
                 <ul>
                     <li>
-                        <a href="#">
+                        <a href="{{ route(name: 'home') }}">
                             <i class="fa-brands fa-facebook-f"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route(name: 'home') }}">
                             <i class="fa-brands fa-twitter"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route(name: 'home') }}">
                             <i class="fa-brands fa-youtube"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="{{ route(name: 'home') }}">
                             <i class="fa-brands fa-linkedin-in"></i>
                         </a>
                     </li>
@@ -683,7 +525,7 @@
     </div>
     <!-- header style two End -->
 
-    <!-- modal -->
+    <!-- modal--pop-up -->
     <div id="myModal-1" class="modal fade" role="dialog">
         <div class="modal-dialog bg_image">
             <div class="modal-content">
