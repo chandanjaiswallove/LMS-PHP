@@ -12,7 +12,7 @@
                             <h2 class="title">Our Professional Instructor</h2>
                             <p class="post-title">You'll find something to spark your curiosity and enhance</p>
                         </div>
-                        <a href="index.html#" class="rts-btn btn-primary with-arrow">View All Teacher <i class="fa-light fa-arrow-right"></i></a>
+                        <a href="#" class="rts-btn btn-primary with-arrow">View All Teacher <i class="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -21,19 +21,19 @@
                     <!-- single instrustor -->
                     <div class="single-instructor">
                         <div class="thumbnail-img">
-                            <a href="index.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="{{ asset('assets/images/instructor/01.jpg')}}" alt="instructor">
                             </a>
                             <div class="social-img-instructor">
                                 <ul>
-                                    <li><a href="index.html#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-skype"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <a href="index.html#">
+                        <a href="#">
                             <h5 class="title">Emma Elizabeth</h5>
                         </a>
                         <p>Assistant Teacher</p>
@@ -44,19 +44,19 @@
                     <!-- single instrustor -->
                     <div class="single-instructor">
                         <div class="thumbnail-img">
-                            <a href="index.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="{{ asset('assets/images/instructor/02.jpg')}}" alt="instructor">
                             </a>
                             <div class="social-img-instructor">
                                 <ul>
-                                    <li><a href="index.html#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-skype"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <a href="index.html#">
+                        <a href="#">
                             <h5 class="title">Thomas Fred</h5>
                         </a>
                         <p>Assistant Teacher</p>
@@ -67,19 +67,19 @@
                     <!-- single instrustor -->
                     <div class="single-instructor">
                         <div class="thumbnail-img">
-                            <a href="index.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="{{ asset('assets/images/instructor/03.jpg')}}" alt="instructor">
                             </a>
                             <div class="social-img-instructor">
                                 <ul>
-                                    <li><a href="index.html#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-skype"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <a href="index.html#">
+                        <a href="#">
                             <h5 class="title">Dana White</h5>
                         </a>
                         <p>UI/UX Exparet</p>
@@ -90,19 +90,19 @@
                     <!-- single instrustor -->
                     <div class="single-instructor">
                         <div class="thumbnail-img">
-                            <a href="index.html#" class="thumbnail">
+                            <a href="#" class="thumbnail">
                                 <img src="{{ asset('assets/images/instructor/04.jpg')}}" alt="instructor">
                             </a>
                             <div class="social-img-instructor">
                                 <ul>
-                                    <li><a href="index.html#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-skype"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li class="bottom"><a href="index.html#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-sharp fa-light fa-share-nodes"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-skype"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="bottom"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 </ul>
                             </div>
                         </div>
-                        <a href="index.html#">
+                        <a href="#">
                             <h5 class="title">Elizabeth Olsen</h5>
                         </a>
                         <p>Assistant Teacher</p>

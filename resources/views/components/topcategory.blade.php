@@ -46,7 +46,7 @@
                             <div class="swiper-wrapper">
                                 <!-- single swiper style -->
                                 <div class="swiper-slide">
-                                    <a href="index.html#" class="category-style-one">
+                                    <a href="#" class="category-style-one">
                                         <div class="icon">
                                             <img src="{{ asset('assets/images/category/01.svg')}}" alt="brand">
                                         </div>
@@ -57,7 +57,7 @@
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
                                 <div class="swiper-slide">
-                                    <a href="index.html#" class="category-style-one">
+                                    <a href="#" class="category-style-one">
                                         <div class="icon">
                                             <img src="{{ asset('assets/images/category/02.svg')}}" alt="brand">
                                         </div>
@@ -68,7 +68,7 @@
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
                                 <div class="swiper-slide">
-                                    <a href="index.html#" class="category-style-one">
+                                    <a href="#" class="category-style-one">
                                         <div class="icon">
                                             <img src="{{ asset('assets/images/category/03.svg')}}" alt="brand">
                                         </div>
@@ -79,7 +79,7 @@
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
                                 <div class="swiper-slide">
-                                    <a href="index.html#" class="category-style-one">
+                                    <a href="#" class="category-style-one">
                                         <div class="icon">
                                             <img src="{{ asset('assets/images/category/04.svg')}}" alt="brand">
                                         </div>
@@ -90,7 +90,7 @@
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
                                 <div class="swiper-slide">
-                                    <a href="index.html#" class="category-style-one">
+                                    <a href="#" class="category-style-one">
                                         <div class="icon">
                                             <img src="{{ asset('assets/images/category/05.svg')}}" alt="brand">
                                         </div>
@@ -101,7 +101,7 @@
                                 <!-- single swiper style -->
                                 <!-- single swiper style -->
                                 <div class="swiper-slide">
-                                    <a href="index.html#" class="category-style-one">
+                                    <a href="#" class="category-style-one">
                                         <div class="icon">
                                             <img src="{{ asset('assets/images/category/06.svg')}}" alt="brand">
                                         </div>

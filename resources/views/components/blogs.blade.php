@@ -8,7 +8,7 @@
                             <img src="{{asset('assets/images/banner/bulb.png')}}" alt="icon">
                             <span>News & Article</span>
                         </div>
-                        <h2 class="title">Read Our Latest News</h2>
+                        <h2 class="title">Read Our Latest Blogs</h2>
                         <p class="post-title"> Our mission is to provide you with valuable insights</p>
                     </div>
                 </div>

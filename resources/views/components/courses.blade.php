@@ -22,7 +22,7 @@
                                 You'll find something to spark your curiosity and enhance
                             </p>
                         </div>
-                        <a href="index-three.html#" class="rts-btn btn-primary with-arrow">View All Course <i class="fa-light fa-arrow-right"></i></a>
+                        <a href="#" class="rts-btn btn-primary with-arrow">View All Course <i class="fa-light fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

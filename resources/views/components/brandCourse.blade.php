@@ -172,13 +172,13 @@
                             <div class="single-author-and-info">
                                 <img src="{{ asset('assets/images/about/01.png')}}" alt="about">
                                 <div class="information">
-                                    <a href="index.html#">
+                                    <a href="#">
                                         <h6 class="title">William James</h6>
                                     </a>
                                     <p class="desig">CEO, Studyhub Online Education</p>
                                 </div>
                             </div>
-                            <a href="index.html#" class="rts-btn btn-primary">About Us</a>
+                            <a href="#" class="rts-btn btn-primary">About Us</a>
                         </div>
                     </div>
                 </div>

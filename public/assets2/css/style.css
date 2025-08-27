@@ -9944,9 +9944,10 @@ textarea:active {
 button,
 [type=button],
 [type=reset],
-[type=submit] {
+[type=submit] 
+/* {
   -webkit-appearance: button;
-}
+} */
 
 input {
   height: 40px;
@@ -11014,19 +11015,19 @@ Custom Row
 input:-moz-placeholder,
 textarea:-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
 }
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
 }
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
   opacity: 1;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; */
 }
 
 input:-ms-input-placeholder,
@@ -16438,7 +16439,7 @@ nav ul li a {
   background-position: center top;
   transform: scale(1);
   -webkit-transform: scale(1);
-  -webkit-transition: opacity 3500ms ease-in, -webkit-transform 10000ms ease;
+  /* -webkit-transition: opacity 3500ms ease-in, -webkit-transform 10000ms ease; */
 }
 .rts-hero-slider-active .swiper-slide .rts-slider-content .rts-university-icon {
   margin-bottom: 30px;
@@ -22687,7 +22688,7 @@ edit .quantity-edit button {
   font-size: 24px;
   opacity: 0;
   background: var(--rt-primary);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   left: 0;
   top: 0;

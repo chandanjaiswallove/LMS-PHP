@@ -23,7 +23,7 @@
                         <!-- single sized  footer  -->
                         <div class="footer-singl-wized left-logo">
                             <div class="head">
-                                <a href="index.html#">
+                                <a href="#">
                                     <img src="{{asset('assets/images/logo/logo-1.svg')}}" alt="logo" loading="lazy">
                                 </a>
                             </div>
@@ -78,7 +78,7 @@
                             </div>
                             <div class="body">
                                 <p class="disc">Subscribe Our newsletter get update our new course</p>
-                                <form action="index.html#">
+                                <form action="#">
                                     <div class="input-area-fill">
                                         <input type="email" placeholder="Enter Your Email" required>
                                         <button> Subscribe</button>
@@ -104,11 +104,11 @@
                             <p>Copyright © 2024 All Rights Reserved by Studyhub</p>
                             <div class="social-copyright">
                                 <ul>
-                                    <li><a href="index.html#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="index.html#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="index.html#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li><a href="index.html#"><i class="fa-brands fa-pinterest"></i></a></li>
-                                    <li><a href="index.html#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
