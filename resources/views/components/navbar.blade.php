@@ -166,13 +166,16 @@
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-                                                        {{-- -components.tabs.tabsPages.tabsPagesOne ---}}
-                                                        @include('components.tabs.tabsPages.tabsPagesOne');
+
+   @include('tabpages.tabpagesone')
+                  
+
 
                                                     </ul>
                                                     <ul class="submenu">
-                                                        {{-- -components.tabs.tabsPages.tabsPagesTwo- --}}
-                                                        @include('components.tabs.tabsPages.tabsPagesTwo');
+
+                                                    
+                                                          @include('tabpages.tabpagestwo')
 
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
@@ -197,15 +200,15 @@
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-                                                        {{-- components.tabs.tabsCourses.tabsCoursesOne --}}
-                                                        @include('components.tabs.tabsCourses.tabsCoursesOne')
 
+
+                         @include('tabcourses.tabcoursesone')
                                                     </ul>
                                                     <ul class="submenu">
-                                                        {{-- components.tabs.tabsCourses.tabsCoursesTwo --}}
-                                                        @include('components.tabs.tabsCourses.tabsCoursesTwo')
 
-                   
+                         @include('tabcourses.tabcoursestwo')
+
+
 
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
@@ -434,10 +437,11 @@
                     <li class="has-droupdown">
                         <a href="#" class="main">Pages</a>
                         <ul class="submenu mm-collapse">
-                            {{-- -components.tabs.tabsPages.tabsPagesOne --}}
-                                @include('components.tabs.tabsPages.tabsPagesOne')
-                            {{-- -components.tabs.tabsPages.tabsPagesTwo --}}
-                            @include('components.tabs.tabsPages.tabsPagesTwo')
+
+
+
+                         @include('tabpages.tabpagesone')
+                     @include('tabpages.tabpagestwo')
 
 
                         </ul>
@@ -445,11 +449,11 @@
                     <li class="has-droupdown">
                         <a href="#" class="main">Courses</a>
                         <ul class="submenu mm-collapse">
-                            {{-- components.tabs.tabsCourses.tabsCoursesOne --}}
-                            @include('components.tabs.tabsCourses.tabsCoursesOne')
 
-                            {{-- components.tabs.tabsCourses.tabsCoursesTwo --}}
-                            @include('components.tabs.tabsCourses.tabsCoursesTwo')
+
+
+                         @include('tabcourses.tabcoursesone')
+                         @include('tabcourses.tabcoursestwo')
 
                         </ul>
                     </li>

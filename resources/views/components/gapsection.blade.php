@@ -1,6 +1,5 @@
+<!-- rgapsection-->
+<div class="rts-section-gap rts-blog-area">
 
-  <!-- rgapsection-->
-    <div class="rts-section-gap rts-blog-area">
-
-    </div>
-    <!-- rgapsection -->
+</div>
+<!-- rgapsection -->

@@ -28,42 +28,42 @@
     @include('components.navbar')
 
     {{-- Hero section include --}}
-    @include('components.hero') 
+    @include('components.hero')
 
-     {{-- HeroTwo section include --}}
-{{-- -- @include('components.heroTwo') --}}
+    {{-- HeroTwo section include --}}
+    {{-- -- @include('components.heroTwo') --}}
 
     {{-- HeroThree section include --}}
-   {{--  @include('components.heroThree') --}}
+    {{-- @include('components.heroThree') --}}
 
     {{-- studenttag section include --}}
     @include('components.studenttag')
 
-     {{-- brandCourse section include --}}
+    {{-- brandCourse section include --}}
     @include('components.brandCourse')
 
-     {{-- topcategory section include --}}
+    {{-- topcategory section include --}}
     @include('components.topcategory')
 
-     {{-- courses section include --}}
-   @include('components.courses', ['showGapSection' => true])
+    {{-- courses section include --}}
+    @include('components.courses', ['showGapSection' => true])
 
 
-      {{-- courseIntro section include --}}
+    {{-- courseIntro section include --}}
     @include('components.courseIntro')
 
     {{-- events section include --}}
-     @include('components.events')
+    @include('components.events')
 
-           {{-- Instructors section include --}}
+    {{-- Instructors section include --}}
     @include('components.instructors')
 
 
 
-     {{-- stfeedback section include --}}
+    {{-- stfeedback section include --}}
     @include('components.stfeedback')
 
-         {{-- blogs section include --}}
+    {{-- blogs section include --}}
     @include('components.blogs')
 
     {{-- Home page view file with singleheading file -with--gapsection--}}

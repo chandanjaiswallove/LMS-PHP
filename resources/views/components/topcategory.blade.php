@@ -120,9 +120,12 @@
             </div>
         </div>
         <div class="shape-image">
-            <div class="shape one" data-speed="0.04" data-revert="true"><img src="{{ asset('assets/images/banner/15.png')}}" alt=""></div>
-            <div class="shape two" data-speed="0.04"><img src="{{ asset('assets/images/banner/shape/banner-shape02.svg')}}" alt=""></div>
-            <div class="shape three" data-speed="0.04"><img src="{{ asset('assets/images/banner/shape/banner-shape03.svg')}}" alt=""></div>
+            <div class="shape one" data-speed="0.04" data-revert="true"><img
+                    src="{{ asset('assets/images/banner/15.png')}}" alt=""></div>
+            <div class="shape two" data-speed="0.04"><img
+                    src="{{ asset('assets/images/banner/shape/banner-shape02.svg')}}" alt=""></div>
+            <div class="shape three" data-speed="0.04"><img
+                    src="{{ asset('assets/images/banner/shape/banner-shape03.svg')}}" alt=""></div>
         </div>
     </div>
     <!-- category area end -->
