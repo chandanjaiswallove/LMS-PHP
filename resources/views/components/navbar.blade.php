@@ -166,18 +166,14 @@
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'instructor') }}">Instructors</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Blogs </a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Courses</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Contact us</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Toppers</a></li>
+                                                        {{-- -components.tabs.tabsPages.tabsPagesOne ---}}
+                                                        @include('components.tabs.tabsPages.tabsPagesOne');
+
                                                     </ul>
                                                     <ul class="submenu">
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Gallery</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Events</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">About us</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Notice</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Result</a></li>
+                                                        {{-- -components.tabs.tabsPages.tabsPagesTwo- --}}
+                                                        @include('components.tabs.tabsPages.tabsPagesTwo');
+
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
                                                         <img class=" shape one" src="assets/images/nav/02.png"
@@ -201,18 +197,16 @@
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Crash Course</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Chemistry</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Test Series</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 7</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>
+                                                        {{-- components.tabs.tabsCourses.tabsCoursesOne --}}
+                                                        @include('components.tabs.tabsCourses.tabsCoursesOne')
+
                                                     </ul>
                                                     <ul class="submenu">
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Spoken Classes</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">English Grammer</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 12th </a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">All Courses</a></li>                                                        
+                                                        {{-- components.tabs.tabsCourses.tabsCoursesTwo --}}
+                                                        @include('components.tabs.tabsCourses.tabsCoursesTwo')
+
+                   
+
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
                                                         <img class=" shape one" src="assets/images/nav/02.png"
@@ -405,13 +399,13 @@
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
-            <div class=" text-center">
-                <a href="index.html" class="logo-area">
+        <div class=" text-center">
+            <a href="index.html" class="logo-area">
                 <img src="{{ asset('assets/images/logo/logo-1.svg') }}" alt="logo">
-                </a>
-             </div>
+            </a>
+        </div>
         <!-- inner menu area desktop start -->
-         <!-- <div class="inner-main-wrapper-desk">
+        <!-- <div class="inner-main-wrapper-desk">
             <div class="thumbnail">
                 <img src="{{ asset('assets/images/banner/04.jpg')}}" alt="elevate">
             </div>
@@ -440,40 +434,23 @@
                     <li class="has-droupdown">
                         <a href="#" class="main">Pages</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Instructors</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Blogs </a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Courses</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Contact us</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Toppers</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Gallery</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Events</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">About us</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Notice</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Result</a></li>
-                            <!-- <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Zoom</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="zoom-meeting.html"></a>Zoom Meeting</li>
-                                    <li><a href="zoom-details.html"></a>Zoom Details</li>
-                                </ul>
-                            </li> -->
+                            {{-- -components.tabs.tabsPages.tabsPagesOne --}}
+                                @include('components.tabs.tabsPages.tabsPagesOne')
+                            {{-- -components.tabs.tabsPages.tabsPagesTwo --}}
+                            @include('components.tabs.tabsPages.tabsPagesTwo')
+
 
                         </ul>
                     </li>
                     <li class="has-droupdown">
                         <a href="#" class="main">Courses</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Spoken Classes</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">English Grammer</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 12th </a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">All Courses</a></li> 
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Crash Course</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Chemistry</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Test Series</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 7</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Class 9</a></li>                                                        
-                       
+                            {{-- components.tabs.tabsCourses.tabsCoursesOne --}}
+                            @include('components.tabs.tabsCourses.tabsCoursesOne')
+
+                            {{-- components.tabs.tabsCourses.tabsCoursesTwo --}}
+                            @include('components.tabs.tabsCourses.tabsCoursesTwo')
+
                         </ul>
                     </li>
                     <li class="">
@@ -485,7 +462,7 @@
                     <li class="">
                         <a href="{{ route(name: 'contact') }}" class="main">Contact</a>
                         <ul class="submenu mm-collapse">
-                        
+
                         </ul>
                     </li>
                 </ul>
@@ -549,7 +526,7 @@
         </div>
     </div>
 
- 
+
     <!-- offcanvase search -->
     <div class="search-input-area">
         <div class="container">
