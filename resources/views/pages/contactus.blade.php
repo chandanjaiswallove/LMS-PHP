@@ -54,7 +54,7 @@
                                 <label for="message">Message*</label>
                                 <textarea id="message" name="message" placeholder="Let tell us about your projects"></textarea>
                             </div>
-                            <button class="rts-btn btn-primary mt--30">Send Message</button>
+                            <button class="rts-btn btn-primary pt-3">Send Message</button>
                         </form>
                         <div id="form-messages" class="mt--20"></div>
                     </div>

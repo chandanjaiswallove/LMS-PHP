@@ -15363,6 +15363,7 @@ nav ul li a {
   margin: 0;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 30px;
 }
 .mobile-menu-main .rts-social-style-one ul li {
@@ -24379,7 +24380,7 @@ input[type=checkbox]:checked ~ label::after, input[type=radio]:checked ~ label::
 .search-input-area .search-input-inner .input-div input {
   background: #F7F7F7;
   border-radius: 5px;
-  height: 55px;
+  height: 40px;
   border: 1px solid transparent;
 }
 .search-input-area .search-input-inner .input-div input:focus {
@@ -24394,7 +24395,7 @@ input[type=checkbox]:checked ~ label::after, input[type=radio]:checked ~ label::
   color: #fff;
   align-items: center;
   justify-content: center;
-  display: block;
+  display: flex;
   margin-left: -9px;
   border-radius: 0 5px 5px 0;
 }

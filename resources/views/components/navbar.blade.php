@@ -166,7 +166,7 @@
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="submenu me-1">
-                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Instructors</a></li>
+                                                        <li><a class="mobile-menu-link" href="{{ route(name: 'instructor') }}">Instructors</a></li>
                                                         <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Blogs </a></li>
                                                         <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Courses</a></li>
                                                         <li><a class="mobile-menu-link" href="{{ route(name: 'home') }}">Contact us</a></li>
@@ -375,7 +375,7 @@
     </div>
     <!-- cart area edn -->
 
-    <!-- Modal -->
+    <!-- Modal -course-save--icon modal-->
     <div class="modal login-pupup-modal fade" id="exampleModal-login" tabindex="-1" aria-labelledby="exampleModalLabel"
         aria-hidden="true">
         <div class="modal-dialog">
@@ -411,7 +411,7 @@
                 </a>
              </div>
         <!-- inner menu area desktop start -->
-        <!-- <div class="inner-main-wrapper-desk">
+         <!-- <div class="inner-main-wrapper-desk">
             <div class="thumbnail">
                 <img src="{{ asset('assets/images/banner/04.jpg')}}" alt="elevate">
             </div>
@@ -426,7 +426,7 @@
                     <a href="contact.html" class="rts-btn btn-primary">Let's talk</a>
                 </div>
             </div>
-        </div> -->
+        </div>  -->
 
 
         <!-- mobile menu area start -->
@@ -477,13 +477,13 @@
                         </ul>
                     </li>
                     <li class="">
-                        <a href="{{ route(name: 'home') }}" class="main">About us</a>
+                        <a href="{{ route(name: 'about') }}" class="main">About us</a>
                         <ul class="submenu mm-collapse">
 
                         </ul>
                     </li>
                     <li class="">
-                        <a href="{{ route(name: 'home') }}" class="main">Contact</a>
+                        <a href="{{ route(name: 'contact') }}" class="main">Contact</a>
                         <ul class="submenu mm-collapse">
                         
                         </ul>

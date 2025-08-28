@@ -21,4 +21,24 @@ class PageControllers extends Controller
         return view('pages.aboutus');
     }
 
+    public function instructors()
+    {
+        return view('pages.instructor');
+    }
+
+    public function gallery()
+    {
+        return view('pages.gallery');
+    }
+
+    public function blog() 
+    {
+        return view('pages.blog');
+    }
+
+    public function allcourse()
+    {
+        return view('pages.allcourse');
+    }
+
 }
