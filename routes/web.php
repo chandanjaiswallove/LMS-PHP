@@ -10,3 +10,6 @@ Route::get('/Instructors', [PageControllers::class, 'instructors'])->name('instr
 Route::get('/Gallery', [PageControllers::class, 'gallery'])->name('gallery');
 Route::get('/Blogs', [PageControllers::class, 'blog'])->name('blog');
 Route::get('/AllCourses', [PageControllers::class, 'allcourse'])->name('allcourse');
+Route::get('Login', [PageControllers::class,'log'])->name(('loginn'));
+Route::get('SignUp', [PageControllers::class,'sign'])->name(('sign'));
+

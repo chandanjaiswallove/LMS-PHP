@@ -473,8 +473,8 @@
             </nav>
 
             <div class="d-flex justify-content-around">
-                <a href="{{ route(name: 'home') }}" class="rts-btn btn-border">Log In</a>
-                <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary">Sign Up</a>
+                <a href="{{ route(name: 'home') }}" class="rts-btn btn-border">Join Now</a>
+                <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary rounded-circle">Acc</a>
             </div>
 
             <div class="rts-social-style-one  mt--50">

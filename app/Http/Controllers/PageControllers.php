@@ -41,4 +41,14 @@ class PageControllers extends Controller
         return view('pages.allcourse');
     }
 
+    public function log()
+    {
+        return view('pages.joinNow');
+    }
+
+        public function sign()
+    {
+        return view('pages.sign');
+    }
+
 }
