@@ -167,15 +167,15 @@
                                                 <li>
                                                     <ul class="submenu me-1">
 
-   @include('tabpages.tabpagesone')
-                  
+                                                        @include('tabpages.tabpagesone')
+
 
 
                                                     </ul>
                                                     <ul class="submenu">
 
-                                                    
-                                                          @include('tabpages.tabpagestwo')
+
+                                                        @include('tabpages.tabpagestwo')
 
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
@@ -202,11 +202,11 @@
                                                     <ul class="submenu me-1">
 
 
-                         @include('tabcourses.tabcoursesone')
+                                                        @include('tabcourses.tabcoursesone')
                                                     </ul>
                                                     <ul class="submenu">
 
-                         @include('tabcourses.tabcoursestwo')
+                                                        @include('tabcourses.tabcoursestwo')
 
 
 
@@ -248,9 +248,10 @@
                                     <i class="fa-regular fa-cart-shopping"></i>
                                 </div>
                             </div>
-                            <div class="buttons-area">
-                                <a href="log-in.html" class="rts-btn btn-border">Log In</a>
-                                <a href="registration.html" class="rts-btn btn-primary">Sign Up</a>
+                            <div class="buttons-area ">
+                                <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary ">Join Now</a>
+                                <a href="{{ route(name: 'loginn') }}" class="border border-success border-1 border-$indigo-500 rounded-circle"style="max-width:40px; max-height: 40px;">
+                                    <img src="https://cdn-icons-png.freepik.com/512/16740/16740522.png" alt="" ></a>
                             </div>
                             <div class="menu-btn" id="menu-btn">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none"
@@ -440,8 +441,8 @@
 
 
 
-                         @include('tabpages.tabpagesone')
-                     @include('tabpages.tabpagestwo')
+                            @include('tabpages.tabpagesone')
+                            @include('tabpages.tabpagestwo')
 
 
                         </ul>
@@ -452,8 +453,8 @@
 
 
 
-                         @include('tabcourses.tabcoursesone')
-                         @include('tabcourses.tabcoursestwo')
+                            @include('tabcourses.tabcoursesone')
+                            @include('tabcourses.tabcoursestwo')
 
                         </ul>
                     </li>
@@ -473,8 +474,9 @@
             </nav>
 
             <div class="d-flex justify-content-around">
-                <a href="{{ route(name: 'home') }}" class="rts-btn btn-border">Join Now</a>
-                <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary rounded-circle">Acc</a>
+                                  <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary ">Join Now</a>
+                                <a href="{{ route(name: 'loginn') }}" class="border border-1 border-$indigo-500 rounded-circle"style="max-width:40px; max-height: 40px;">
+                                    <img src="https://cdn-icons-png.freepik.com/512/16740/16740522.png" alt="" ></a>
             </div>
 
             <div class="rts-social-style-one  mt--50">
