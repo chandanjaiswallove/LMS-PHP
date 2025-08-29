@@ -23,7 +23,9 @@
     <!-- bread crumb area end -->
 
 
-
+{{-- --director--section --including--here --}}
+@include('components.director')
+{{-- --director--section --including--here --}}
 
     <!-- rts contact area start -->
     <div class="rts-contact-area rts-section-gapTop">

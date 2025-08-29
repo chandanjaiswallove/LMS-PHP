@@ -1,5 +1,5 @@
-<li><a class="mobile-menu-link" href="{{ route('home') }}">Business Coach</a></li>
-<li><a class="mobile-menu-link" href="{{ route('home') }}">Main Home</a></li>
-<li><a class="mobile-menu-link" href="{{ route('home') }}">Online Course</a></li>
-<li><a class="mobile-menu-link" href="{{ route('home') }}">Course Hub</a></li>
-<li><a class="mobile-menu-link" href="{{ route('home') }}">Distance Learning</a></li>
+<li><a class="mobile-menu-link" href="{{ route('home') }}">Class 7th</a></li>
+<li><a class="mobile-menu-link" href="{{ route('home') }}">Class 8th</a></li>
+<li><a class="mobile-menu-link" href="{{ route('home') }}">Class 9th</a></li>
+<li><a class="mobile-menu-link" href="{{ route('home') }}">Class 11th (Science)</a></li>
+<li><a class="mobile-menu-link" href="{{ route('home') }}">Class 12th(Science)</a></li>
