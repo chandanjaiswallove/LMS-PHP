@@ -249,8 +249,8 @@
                                 </div>
                             </div>
                             <div class="buttons-area ">
-                                <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary ">Join Now</a>
-                                <a href="{{ route(name: 'loginn') }}" class="border border-success border-1 border-$indigo-500 rounded-circle"style="max-width:40px; max-height: 40px;">
+                                <a href="{{ route(name: 'joinnow') }}" class="rts-btn btn-primary ">Join Now</a>
+                                <a href="{{ route(name: 'pagenotfound') }}" class="border border-success border-1 border-$indigo-500 rounded-circle"style="max-width:40px; max-height: 40px;">
                                     <img src="https://cdn-icons-png.freepik.com/512/16740/16740522.png" alt="" ></a>
                             </div>
                             <div class="menu-btn" id="menu-btn">
@@ -474,8 +474,8 @@
             </nav>
 
             <div class="d-flex justify-content-around">
-                                  <a href="{{ route(name: 'home') }}" class="rts-btn btn-primary ">Join Now</a>
-                                <a href="{{ route(name: 'loginn') }}" class="border border-1 border-$indigo-500 rounded-circle"style="max-width:40px; max-height: 40px;">
+                                  <a href="{{ route(name: 'joinnow') }}" class="rts-btn btn-primary ">Join Now</a>
+                                <a href="{{ route(name: 'pagenotfound') }}" class="border border-1 border-$indigo-500 rounded-circle"style="max-width:40px; max-height: 40px;">
                                     <img src="https://cdn-icons-png.freepik.com/512/16740/16740522.png" alt="" ></a>
             </div>
 

@@ -6,12 +6,13 @@ use Illuminate\Http\Request;
 
 class PageControllers extends Controller
 {
+    ///Defualt files 
     public function home()
     {
         return view('welcome');
     }
 
-    public function contact() 
+    public function contact()
     {
         return view('pages.contactus');
     }
@@ -31,7 +32,7 @@ class PageControllers extends Controller
         return view('pages.gallery');
     }
 
-    public function blog() 
+    public function blog()
     {
         return view('pages.blog');
     }
@@ -41,14 +42,68 @@ class PageControllers extends Controller
         return view('pages.allcourse');
     }
 
-    public function log()
+    public function joinNow()
     {
-        return view('pages.joinNow');
+        return view('pages.join_now');
     }
 
-        public function sign()
+
+    public function event()
     {
-        return view('pages.sign');
+        return view('pages.event');
+    }
+    public function result()
+    {
+        return view('pages.result');
+    }
+    public function developer()
+    {
+        return view('pages.developer');
+    }
+    public function pageNotFound()
+    {
+        return view('pages.page_not_found');
+    }
+
+    //// Courses Tab files
+
+    public function coursefirst()
+    {
+        return view('pages.course_one');
+    }
+    public function coursetwo()
+    {
+        return view('pages.course_two');
+    }
+    public function coursethree()
+    {
+        return view('pages.course_three');
+    }
+    public function coursefour()
+    {
+        return view('pages.course_four');
+    }
+    public function coursefive()
+    {
+        return view('pages.course_five');
+    }
+    public function coursesix()
+    {
+        return view('pages.course_six');
+    }
+
+    public function courseseven()
+    {
+        return view('pages.course_seven');
+    }
+    public function courseeight()
+    {
+        return view('pages.course_eight');
+    }
+
+    public function coursenine()
+    {
+        return view('pages.course_nine');
     }
 
 }

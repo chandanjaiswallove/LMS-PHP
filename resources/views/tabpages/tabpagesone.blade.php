@@ -1,3 +1,3 @@
-<li><a class="mobile-menu-link" href="{{ route('loginn') }}">Gallery</a></li>
-<li><a class="mobile-menu-link" href="{{ route('sign') }}">Blogs </a></li>
-<li><a class="mobile-menu-link" href="{{ route('home') }}">All Courses</a></li>
+<li><a class="mobile-menu-link" href="{{ route('gallery') }}">Gallery</a></li>
+<li><a class="mobile-menu-link" href="{{ route('blog') }}">Blogs </a></li>
+<li><a class="mobile-menu-link" href="{{ route('allcourse') }}">All Courses</a></li>
