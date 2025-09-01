@@ -24,7 +24,7 @@ class PageControllers extends Controller
      
     public function instructor()
     {
-        return view('components.instructors');
+        return view('pages.instructor');
     }
 
 

@@ -33,7 +33,7 @@
                             <div class="left-information">
                                 <a href="mailto:someone@example.com" class="email"><i
                                         class="fa-light fa-envelope"></i>info@studyhub.com</a>
-                                <a href="tel:+7292818092" class="email"><i class="fa-light fa-phone"></i>+91 7292818092
+                                <a href="tel:+7292818092" class="email"><i class="fa-light fa-phone"></i>+91 7292818092 c-lms
                                     </a>
                             </div>
                             <div class="right-information">
