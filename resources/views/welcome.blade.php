@@ -56,9 +56,7 @@
     @include('components.events')
 
     {{-- Instructors section include --}}
-    @include('components.instructors')
-
-
+    
 
     {{-- stfeedback section include --}}
     @include('components.stfeedback')

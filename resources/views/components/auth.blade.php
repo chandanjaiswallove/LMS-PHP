@@ -55,7 +55,7 @@
     }
     .switch-link{color:var(--primary);cursor:pointer}
     .hidden{display:none!important}
-    .brand-logo{width:70px}
+    .brand-logo{width:110px}
     .title{color:var(--primary); margin:8px 0 4px}
     .social-btn{
       border:1px solid #ddd; border-radius:8px; padding:10px 12px;
@@ -97,7 +97,7 @@
       .auth-right .form-control, .auth-right .form-select {
         font-size: 15px;
       }
-      .brand-logo{width:60px}
+      .brand-logo{width:80px}
       .auth-left, .auth-right {
         align-items: stretch;
       }
@@ -110,8 +110,11 @@
       .auth-illustration{
         max-height:auto;
       }
-      .brand-logo{width:54px}
+      .brand-logo{width:70px}
     }
+
+    
+    
     /* --------------------------------------- */
   </style>
 </head>
@@ -133,7 +136,7 @@
     <!-- LOGIN -->
     <div id="loginForm">
       <div class="text-center mb-3">
-        <img class="brand-logo mb-1" src="https://img.favpng.com/9/12/7/study-hub-essay-study-skills-writing-pearson-language-tests-png-favpng-7LTh657nXQhXQxzcfUwY9cGd4.jpg" alt="Logo">
+        <img class="brand-logo mb-1" src="{{asset('assets/images/logo/logo-1.svg')}}" alt="Logo">
         <h4 class="title">Login to Your Account 👋</h4>
       </div>
       <form id="loginFormEl" novalidate>
@@ -182,7 +185,7 @@
     <!-- SIGNUP -->
     <div id="signupForm" class="hidden">
       <div class="text-center mb-3">
-        <img class="brand-logo mb-1" src="https://img.favpng.com/9/12/7/study-hub-essay-study-skills-writing-pearson-language-tests-png-favpng-7LTh657nXQhXQxzcfUwY9cGd4.jpg" alt="Logo">
+        <img class="brand-logo mb-1" src="{{asset('assets/images/logo/logo-1.svg')}}" alt="Logo">
         <h4 class="title">Create Your Account 🚀</h4>
       </div>
       <form id="signupFormEl" novalidate>
@@ -220,7 +223,7 @@
     <!-- FORGOT STEP 1 (Email) -->
     <div id="forgotStep1" class="hidden">
       <div class="text-center mb-2">
-        <img class="brand-logo mb-1" src="https://img.favpng.com/9/12/7/study-hub-essay-study-skills-writing-pearson-language-tests-png-favpng-7LTh657nXQhXQxzcfUwY9cGd4.jpg" alt="Logo">
+        <img class="brand-logo mb-1" src="{{asset('assets/images/logo/logo-1.svg')}}" alt="Logo">
         <h4 class="title">Forgot Password 🔑</h4>
         <p class="text-muted fine-text mb-0">Enter your registered email to get OTP.</p>
       </div>
@@ -238,7 +241,7 @@
     <!-- FORGOT STEP 2 (OTP + New Password) -->
     <div id="forgotStep2" class="hidden">
       <div class="text-center mb-2">
-        <img class="brand-logo mb-1" src="https://img.favpng.com/9/12/7/study-hub-essay-study-skills-writing-pearson-language-tests-png-favpng-7LTh657nXQhXQxzcfUwY9cGd4.jpg" alt="Logo">
+        <img class="brand-logo mb-1" src="{{asset('assets/images/logo/logo-1.svg')}}" alt="Logo">
         <h4 class="title">Verify OTP & Reset</h4>
         <p class="text-muted fine-text mb-0">We sent a 6-digit OTP to your email.</p>
       </div>

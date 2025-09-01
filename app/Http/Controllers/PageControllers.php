@@ -9,9 +9,9 @@ class PageControllers extends Controller
     ///Defualt files 
     public function home()
     {
-        return view('welcome');
+        return view("welcome");
     }
-
+    
     public function contact()
     {
         return view('pages.contactus');
@@ -21,11 +21,12 @@ class PageControllers extends Controller
     {
         return view('pages.aboutus');
     }
-
-    public function instructors()
+     
+    public function instructor()
     {
-        return view('pages.instructor');
+        return view('components.instructors');
     }
+
 
     public function gallery()
     {
@@ -71,37 +72,37 @@ class PageControllers extends Controller
     {
         return view('pages.course_one');
     }
-    public function coursetwo()
+    public function course_two()
     {
         return view('pages.course_two');
     }
-    public function coursethree()
+    public function course_three()
     {
         return view('pages.course_three');
     }
-    public function coursefour()
+    public function course_four()
     {
         return view('pages.course_four');
     }
-    public function coursefive()
+    public function course_five()
     {
         return view('pages.course_five');
     }
-    public function coursesix()
+    public function course_six()
     {
         return view('pages.course_six');
     }
 
-    public function courseseven()
+    public function course_seven()
     {
         return view('pages.course_seven');
     }
-    public function courseeight()
+    public function course_eight()
     {
         return view('pages.course_eight');
     }
 
-    public function coursenine()
+    public function course_nine()
     {
         return view('pages.course_nine');
     }
